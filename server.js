@@ -217,7 +217,7 @@ function addBookAuthor(req, res) {
           );
         }
         res.writeHead(200);
-        res.end("Author added successfully!");
+        res.end("Author added successfully");
       });
     });
   });
@@ -267,7 +267,7 @@ function updateBookAuthor(req, res) {
           );
         }
         res.writeHead(200);
-        res.end("Update successful:)");
+        res.end("Update successful");
       });
     });
   });
